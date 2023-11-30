@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j
-public class OrderCommandTrackHandler {
+public class OrderTrackCommandHandler {
 
     public TrackOrderResponse trackOrder(TrackOrderQuery trackOrderQuery){
         return null;
